@@ -31,6 +31,11 @@ Now we are going to learn how to move files from client(your computer) to server
 
 Notice that we have to put in our password whenever we log into ssh or put a file in. There is a way to bypass this and that is by setting up ssh keys. The process of achieving this is shown below:
 
+![Image](keygen.png)
+![Image](keygen2.png)
+
 # Part 6: Optimize remote setting:
 
-In addition to ssh keys, there are several ways to optimize a remote enviroment. One way is to write whatever commands that you want to run in quotes at the end of the ssh command. This will make it so that after you enter ssh the terminal will execute the command in quotes and exist the server.
+In addition to ssh keys, there are several ways to optimize a remote enviroment. One way is to write whatever commands that you want to run in quotes at the end of the ssh command. This will make it so that after you enter ssh the terminal will execute the command in quotes and exist the server without using the exit command.
+
+![Image](optimal.png)
