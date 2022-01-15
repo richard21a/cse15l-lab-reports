@@ -20,7 +20,7 @@ Now we are going to try out some essential commands that we can use in the termi
 
 # Step 4: Moving files with SCP
 
-Now we are going to learn how to move files from client(your computer) to server(ssh). To do this, run the following command in your own computer terminal.
+Now we are going to learn how to move files from client(your computer) to server(ssh). To do this, run the following command in your own computer terminal(WhereAmI.java is the file in the client that we want to move to the server).
 
 ![Image](scp.png)
 
