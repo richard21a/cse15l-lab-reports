@@ -37,9 +37,14 @@ Now we are going to learn how to move files from client(your computer) to server
 
 # Step 5: Setting up ssh keys
 
-Notice that we have to put in our password whenever we log into ssh or put a file in. There is a way to bypass this and that is by setting up ssh keys. The process of achieving this is shown below:
+Notice that we have to put in our password whenever we log into ssh or put a file in. There is a way to bypass this and that is by setting up ssh keys. One important note for Windows users is to first open a powershell window as administrator. The process of achieving this is shown below:
+
+`ssh-keygen -t ed25519`, `Get-Service ssh-agent`, `Start-Service ssh-agent`, and `ssh-add` commands are used to generate a key in the client.
 
 ![Image](keygen.png)
+
+We then connect the key to the server with the following command: `scp ~/.ssh/id_ed25519.pub cs15lwi22aav@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+
 ![Image](keygen2.png)
 
 # Part 6: Optimize remote setting:
