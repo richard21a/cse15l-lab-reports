@@ -2,7 +2,10 @@
 
 # Step 1: Installing VScode
 
-Visual studio code is an editor commonly used to write code. You can download it for free on the internet. After downloading it, open VS code and you should see this screen:
+Visual studio code is an editor commonly used to write code. You can download it for free on the internet. Here is where you can download it:
+[VScode Download link](https://code.visualstudio.com/download)
+
+After downloading it, open VS code and you should see this screen:
 
 ![Image](vscode.png)
 
@@ -10,17 +13,25 @@ Visual studio code is an editor commonly used to write code. You can download it
 
 We're going to connect to the computers in UCSD using ssh. In order to do this, we need to first reset our password for ssh account for CSE15l. I found this works most reliably in windows explorer. After resetting the password, log in to ssh using the command shown below:
 
+```ssh cs15wi22aav@ieng6.ucsd.edu```
+
 ![Image](remote.png)
 
 # Step 3: Trying some Commands
 
 Now we are going to try out some essential commands that we can use in the terminal. Examples of these commands being run is shown below:
 
+`cd` : Change directory
+
+`ls` : Lists the things in the current directory
+
+`mkdir` : Make a new directory
+
 ![Image](commands.png)
 
 # Step 4: Moving files with SCP
 
-Now we are going to learn how to move files from client(your computer) to server(ssh). To do this, run the following command in your own computer terminal(WhereAmI.java is the file in the client that we want to move to the server).
+Now we are going to learn how to move files from client(your computer) to server(ssh). To do this, run the following command: `scp WhereAmI.java cs15lwi22aav@ieng6.ucsd.edu:~/` in your own computer terminal(WhereAmI.java is the file in the client that we want to move to the server).
 
 ![Image](scp.png)
 
@@ -33,6 +44,6 @@ Notice that we have to put in our password whenever we log into ssh or put a fil
 
 # Part 6: Optimize remote setting:
 
-In addition to ssh keys, there are several ways to optimize a remote enviroment. One way is to write whatever commands that you want to run in quotes at the end of the ssh command. This will make it so that after you enter ssh the terminal will execute the command in quotes and exist the server without using the exit command.
+In addition to ssh keys, there are several ways to optimize a remote enviroment. One way is to write whatever commands that you want to run in quotes at the end of the ssh command. This will make it so that after you enter ssh the terminal will execute the command in quotes and exist the server without using the exit command. In addition to this, we can use semi colons to run multiple commands at the same time using one line. An example of these optimizations being used: `scp WhereAmI.java cs15lwi22aav@ieng6.ucsd.edu "javac WhereAmI.java ; java WhereAmI"`
 
 ![Image](optimal.png)
