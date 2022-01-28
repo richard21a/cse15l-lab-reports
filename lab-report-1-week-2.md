@@ -49,6 +49,6 @@ We then connect the key to the server with the following command: `scp ~/.ssh/id
 
 # Part 6: Optimize remote setting:
 
-In addition to ssh keys, there are several ways to optimize a remote enviroment. One way is to write whatever commands that you want to run in quotes at the end of the ssh command. This will make it so that after you enter ssh the terminal will execute the command in quotes and exist the server without using the exit command. In addition to this, we can use semi colons to run multiple commands at the same time using one line. An example of these optimizations being used: `scp WhereAmI.java cs15lwi22aav@ieng6.ucsd.edu "javac WhereAmI.java ; java WhereAmI"`
+In addition to ssh keys, there are several ways to optimize a remote enviroment. One way is to write whatever commands that you want to run in quotes at the end of the ssh command. This will make it so that after you enter ssh the terminal will execute the command in quotes and exit the server without using the exit command. In addition to this, we can use semi colons to run multiple commands at the same time using one line. Lastly we can use the TAB key to autocomplete file names. An example of these optimizations being used: `scp WhereAmI.java cs15lwi22aav@ieng6.ucsd.edu "javac WhereAmI.java ; java WhereAmI"` (Approxmate keystrokes:50). To achieve the same result without these optimizations, we would have to write: `scp WhereAmI.java cs15lwi22aav@ieng6.ucsd.edu` , `javac WhereAmI.java` , `java WhereAmI`, and `exit` (Approximate keystrokes:85) 
 
 ![Image](optimal.png)
