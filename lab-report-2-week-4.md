@@ -1,4 +1,6 @@
-# Change 1
+[Lab Report 1](https://richard21a.github.io/cse15l-lab-reports//lab-report-1-week-2.html)
+
+# Change 1:
 
 ![Image](error1.png)
 
@@ -8,7 +10,7 @@
 
 The symptom was that the code was printing the same two output repeatedly. This meant that the while loop in the code was not exiting which was caused by switching a close bracket[] with open brackets() in the input.
 
-# Change 2
+# Change 2:
 
 ![Image](error2.png)
 
@@ -18,7 +20,7 @@ The symptom was that the code was printing the same two output repeatedly. This 
 
 The symptom was that the code printed out the incorrect contents. This likely meant that the code was picking the wrong set of paraenthesis in the input file which contained an extra pair of paranethesis before the one that contains the link.
 
-# Change 3
+# Change 3:
 
 ![Image](error3.png)
 

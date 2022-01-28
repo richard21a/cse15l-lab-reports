@@ -1,5 +1,5 @@
 [Lab Report 1](https://richard21a.github.io/cse15l-lab-reports//lab-report-1-week-2.html)
-
+[Lab Report 2](https://richard21a.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 # Step 1: Installing VScode
 
 Visual studio code is an editor commonly used to write code. You can download it for free on the internet. Here is where you can download it:
