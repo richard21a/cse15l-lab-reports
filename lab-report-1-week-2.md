@@ -45,6 +45,7 @@ Notice that we have to put in our password whenever we log into ssh or put a fil
 
 We then connect the key to the server with the following command: `scp ~/.ssh/id_ed25519.pub cs15lwi22aav@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
+As shown in the bottom of the image below, we are now able to connect to ssh without entering our password.
 ![Image](keygen2.png)
 
 # Part 6: Optimize remote setting:
