@@ -1,7 +1,9 @@
 [Lab Report 1](https://richard21a.github.io/cse15l-lab-reports//lab-report-1-week-2.html)
 [Lab Report 2](https://richard21a.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
-# Streamlining ssh configuration
+# Lab Report 3
+
+## Streamlining ssh configuration
 
 Previously, we made logging into ssh easier by creating an ssh key. Now we will make this process even simpler by editing the config file of ssh. 
 
