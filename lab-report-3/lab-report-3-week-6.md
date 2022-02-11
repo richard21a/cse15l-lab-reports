@@ -13,6 +13,7 @@ To start, first enter the .ssh directory in your own pc by typing `cd .ssh`
 In the .ssh directory, there is a file called config. We will edit this file to achieve the streamlining. To open config in VScode, type the command `code config` and type the following code:
 
 ![Image](config_file.png)
+
 Note: For user, type your own unique account for ssh.
 
 After editing the config file, we can log in to ssh by just typing `ssh ieng6`.
