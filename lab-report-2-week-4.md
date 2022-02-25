@@ -1,5 +1,6 @@
 [Lab Report 1](https://richard21a.github.io/cse15l-lab-reports//lab-report-1-week-2.html)
 [Lab Report 3](https://richard21a.github.io/cse15l-lab-reports/lab-report-3/lab-report-3-week-6.html)
+[Lab Report 4](https://richard21a.github.io/cse15l-lab-reports/lab-report-4/lab-report-4-week-8.html)
 # Change 1:
 
 ![Image](error1.png)
