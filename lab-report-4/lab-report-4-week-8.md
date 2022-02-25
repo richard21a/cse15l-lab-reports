@@ -27,5 +27,8 @@ Junit output for our implementation
 Junit output for the other team's implementation
 ![image](testfail.png)
 
+Possible solutions for snippet 1: For this, we will need to find the index of backticks and make sure that anything inside code blocks are ignored. However, the problem gets more complicated when considering the fact that there could be multiple code blocks in a line. Whatever is between the code block would still be between backticks but could still be a valid link. To keep track of all these complexities, we would need to make a lot of adjustments.
 
+Possible solution for snippet 2: The problem for snippet 2 could be fixed by making the next closed bracket be the last bracket in the line. This could be achieved by using a while loop that ends after it encounters a new line. As for the second problem with nested parenthesis, we can add to our conditional so that if there are certain characters in the link(like "(") it ignores it.
 
+Possible solution for snippet 3: The output for this snippet was mostly correct with the only issue being when the closed parenthesis is a few lines away. It appears that the findCloseParen method is incorrectly returning -1 for the last link. This is likely fixed by slightly changing the conditionals used for findCloseParen so that it can deal with new lines.
