@@ -1,10 +1,13 @@
 [Lab Report 1](https://richard21a.github.io/cse15l-lab-reports//lab-report-1-week-2.html)
 [Lab Report 2](https://richard21a.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 [Lab Report 3](https://richard21a.github.io/cse15l-lab-reports/lab-report-3/lab-report-3-week-6.html)
+[Lab Report 4](https://richard21a.github.io/cse15l-lab-reports/lab-report-4/lab-report-4-week-8.html)
 
 # Lab Report 5
 
-Using the ``bash script.sh > file_name.txt`` command, I ran all of the 1000+ test cases on both our implementation of markdown parse and the implementation that was given to us. I stored the result from our implementation in ``results.txt`` and the result from the other implementation in ``result.txt``. I then compared the two files by running the command ``diff result.txt results.txt``
+Using the ``bash script.sh > file_name.txt`` command, I ran all of the 1000+ test cases on both our implementation of markdown parse and the implementation that was given to us. I stored the result from our implementation in ``results.txt`` and the result from the other implementation in ``result.txt``. I then compared the two files by running the command ``diff result.txt results.txt``. A sample of the output is shown below:
+
+![image](sampleoutput.png)
 
 # Test 1 (test-files/194):
 

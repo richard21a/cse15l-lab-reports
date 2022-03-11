@@ -1,7 +1,7 @@
 [Lab Report 1](https://richard21a.github.io/cse15l-lab-reports//lab-report-1-week-2.html)
 [Lab Report 2](https://richard21a.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 [Lab Report 3](https://richard21a.github.io/cse15l-lab-reports/lab-report-3/lab-report-3-week-6.html)
-
+[Lab Report 5](https://richard21a.github.io/cse15l-lab-reports/lab-report-5/lab-report-5-week-10.html)
 # Lab Report 4
 
 [Our Repository](https://github.com/AnniePhan02/CSE15L-Panther)
