@@ -20,7 +20,7 @@ Running this test outputs `[url]` from the given implementation and `[]` from ou
 
 Using the preview feature of VScode, I found that the test file contains no links which means that the given implementation wronly detected "url" as a link.
 
-The issue with the given implementation is that it doesn't take into account that the open parenthesis should immedietly follow the close bracket ([Source](https://spec.commonmark.org/0.30/#links)). To fix this, there needs to be a conditional in the part of the code shown below that checks the location of the open parenthesis and skip to the next block or return when appropriate.
+The issue with the given implementation is that it doesn't take into account that the open parenthesis should immedietly follow the close bracket ([Source](https://spec.commonmark.org/0.30/#links)). To fix this, there needs to be a conditional in the part of the code shown below that checks the location of the open parenthesis and skip to the next block or return if it does not immedietly follow the close bracket.
 
 ![Image](194problem.png)
 
@@ -36,6 +36,6 @@ Running this test outputs `[]` from the given implementation and
 
 Using the preview feature of VScode, I found that the test file contains no links which means that our implementation wronly detected "foo" + "\n" + "bar" as a link.
 
-The issue with our implementation is that it fails to account for the fact that there can't be a new line in the middle of a link ([Source](https://spec.commonmark.org/0.30/#links)). To fix this, there needs to be a conditional in the part of the code shown below that checks if there is a new line between the open and closed parenthesis and skip to the next block or return when appropriate.
+The issue with our implementation is that it fails to account for the fact that there can't be a new line in the middle of a link ([Source](https://spec.commonmark.org/0.30/#links)). To fix this, there needs to be a conditional in the part of the code shown below that checks if there is a new line between the open and closed parenthesis and skip to the next block or return if there is a new line.
 
 ![Image](489problem.png)
