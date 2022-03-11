@@ -36,6 +36,6 @@ Running this test outputs `[]` from the given implementation and
 
 Using the preview feature of VScode, I found that the test file contains no links which means that our implementation wronly detected "foo" + "\n" + "bar" as a link.
 
-The issue with our implementation is that it fails to account for the fact that there can't be a new line in the middle of a link ([Source](https://spec.commonmark.org/0.30/#links)). To fix this, there needs to be a conditional in the part of the code shown below that checks if there is a new line between the open and closed parenthesis and skip to the next block or return if there is a new line.
+The issue with our implementation is that it fails to account for the fact that there can't be a new line in the middle of a link ([Source](https://spec.commonmark.org/0.30/#links)). To fix this, there needs to be a conditional in the part of the code shown below that checks if there is a new line between the open and closed parenthesis and skip to the next block or return if there is one.
 
 ![Image](489problem.png)
