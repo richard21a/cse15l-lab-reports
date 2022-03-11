@@ -9,7 +9,7 @@ Using the ``bash script.sh > file_name.txt`` command, I ran all of the 1000+ tes
 
 ![image](sampleoutput.png)
 
-# Test 1 (test-files/194):
+# Test 1:
 
 The testfile: 194.md
 ![image](194.png)
